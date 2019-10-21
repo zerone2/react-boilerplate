@@ -32,7 +32,7 @@ export default class SideLayout extends React.Component {
     return (
       <Layout className={className} style={{ minHeight: '100vh', background: '#f0f2f5', ...style }}>
         <Helmet>
-          <title>ZIPDATA 담보심사 사이트</title>
+          <title>Zer01ne home</title>
         </Helmet>
         <SideBar currentUser={currentUser} appStore={this.appStore} location={location} />
         <Layout>

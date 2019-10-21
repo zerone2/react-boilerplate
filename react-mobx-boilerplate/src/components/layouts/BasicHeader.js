@@ -5,7 +5,7 @@ import { Link, withRouter } from 'react-router-dom'
 import styled from 'styled-components'
 import HeaderRight from 'components/header/HeaderRight'
 import NavTabs from 'components/header/NavTabs'
-import ZipDataLogo from 'assets/images/header-zipdata-logo-btn-normal.png'
+import CompanyLogo from 'assets/images/logo.png'
 
 const { Header } = Layout
 const StyledHeader = styled(Header)`
@@ -69,7 +69,7 @@ export default class BasicHeader extends React.Component {
         <div style={{ position: 'relative' }}>
           <div className="header__left">
             <Link to={'/'}>
-              <img src={ZipDataLogo} />
+              <img src={CompanyLogo} />
             </Link>
           </div>
           <NavTabs />

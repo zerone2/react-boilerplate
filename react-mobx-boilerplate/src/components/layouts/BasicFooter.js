@@ -27,7 +27,7 @@ export default class BasicFooter extends React.Component {
       <Footer className={styles.footer} id={'footer'}>
         <div style={{ textAlign: 'left' }}>
           <img src={ZipDataLogo} style={{ marginTop: -5, marginRight: 15 }} />
-          <a key="intro" href={'http://zipadvisor.co/about'} target={'_blank'} className={styles.link}>
+          <a key="intro" href={'http://home-test.zer01ne.dev/about'} target={'_blank'} className={styles.link}>
             회사소개
           </a>
           <span className={styles.divider} />
@@ -38,10 +38,10 @@ export default class BasicFooter extends React.Component {
           <span className={styles.link} onClick={() => window.CHPlugin.show()}>고객센터</span>
         </div>
         <div className={styles.info}>
-          주식회사 집펀드  ㅣ  대표: 남성태  ㅣ  사업자등록번호: 286-86-00253  ㅣ  서울특별시 강남구 테헤란로 5길 7 KG타워 8층  ㅣ  이메일: info@zipfund.co  ㅣ  대표전화: 070-4464-8445  ㅣ  팩스: 02-6280-6369
+          주식회사 지로원  ㅣ  대표: 조영일  ㅣ  사업자등록번호: 000-00-00000  ㅣ  서울특별시 강남구 역삼동  ㅣ  이메일: czer01ne@gmail.com  ㅣ  대표전화: 010-8766-1529  ㅣ  팩스: 02-0000-0000
         </div>
         <div className={styles.info} style={{ textAlign: 'right', fontSize: 12, letterSpacing: '-0.24px' }}>
-          ⓒ ZIPFUND. ALL RIGHTS RESERVED.
+          ⓒ ZER01NE. ALL RIGHTS RESERVED.
         </div>
         <Popup title={'개인정보 보호정책'} visible={this.personalVisible} onCancel={() => this.personalVisible = false} />
         <Popup title={'이용약관'} visible={this.agreeVisible} onCancel={() => this.agreeVisible = false} />

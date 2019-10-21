@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { stores } from '../stores'
-const URL = process.env.NODE_ENV !== 'production' ? '/api' : 'http://https://home-test.zerone.dev/api'
+const URL = process.env.NODE_ENV !== 'production' ? '/api' : 'http://https://home-test.zer01ne.dev/api'
 
 export function axiosApi(url, method = 'GET', data, options = {}) {
   const { session_key, currentUser } = stores.userStore
